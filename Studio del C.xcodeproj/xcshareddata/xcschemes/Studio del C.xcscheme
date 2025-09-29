@@ -54,7 +54,7 @@
       </BuildableProductRunnable>
       <CommandLineArguments>
          <CommandLineArgument
-            argument = "test1.txt"
+            argument = "&apos;/Users/grandemassone/Desktop/Davide/Programmazione/Programmi in C/Teoria/Studio del C/Studing C/File creati&apos;"
             isEnabled = "YES">
          </CommandLineArgument>
       </CommandLineArguments>
