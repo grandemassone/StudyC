@@ -11,6 +11,8 @@ Il padre, una volta al secondo, legge la directory corrente
  e termina dopo aver cancellato tutti i file *.bin.
 */
 
+/*
+
 #include <utilsF.h>
 #include <time.h>
 
@@ -108,3 +110,4 @@ int main(int argc, char** argv)
 	}
 }
 
+*/
