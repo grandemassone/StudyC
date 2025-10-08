@@ -68,7 +68,7 @@ int main(void)
 		
 		close(fdpipe[WRITE]);
 		
-		//Wait the son
+		//Waiting the son
 		int status;
 		pid_t wait_pid;
 		
@@ -84,8 +84,6 @@ int main(void)
 
 		if (WIFEXITED(status)) {
 			printf("Child terminated with status: %d\n", WEXITSTATUS(status));
-		} else if (WIFSIGNALED(status)) {
-			printf("Child terminated due to signal %d\n", WTERMSIG(status));
 		} else {
 			printf("Child terminated abnormally.\n");
 		}
