@@ -13,6 +13,8 @@
 	 •	When the signal is received, print: "Child has completed. Check test8.txt" and then terminate.
 */
 
+/*
+
 #include <utilsF.h>
 
 void handler_signal(int signum)
@@ -112,3 +114,4 @@ int main(int argc, char** argv)
 	exit(EXIT_SUCCESS);
 }
 
+*/
