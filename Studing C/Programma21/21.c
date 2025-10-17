@@ -19,6 +19,7 @@
 	• End the program.
 */
 
+/*
 
 #include <utilsF.h>
 #include <time.h>
@@ -126,3 +127,5 @@ int main(void)
 		sleep(1);
 	}
 }
+
+*/
