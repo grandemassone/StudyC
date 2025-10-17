@@ -1,5 +1,5 @@
 /*
-Test of mmap and munmap.
+Test semaphore.
 Testing for using n process son
 */
 
@@ -64,5 +64,5 @@ int main(void)
 	sem_unlink(nameSemaphore);
 	
 	
-	_exit(EXIT_SUCCESS);
+	exit(EXIT_SUCCESS);
 }
