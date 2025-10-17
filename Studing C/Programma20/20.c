@@ -3,6 +3,8 @@ Test semaphore.
 Testing for using n process son
 */
 
+/*
+
 #include <utilsF.h>
 #include <sys/mman.h>
 #include <semaphore.h>
@@ -66,3 +68,5 @@ int main(void)
 	
 	exit(EXIT_SUCCESS);
 }
+
+*/
