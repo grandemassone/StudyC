@@ -3,6 +3,8 @@
  Il padre, una volta al secondo, legge la directory corrente e calcola la somma degli interi contenuti in tutti i file *.bin. Se la somma è maggiore di 1.000.000 termina il processo figlio, stampa il nome del file (il cui contenuto verifica la condizione) e termina dopo aver cancellato tutti i file *.bin.
 */
 
+/*
+
 #include <utilsF.h>
 #include <time.h>
 
@@ -110,3 +112,5 @@ int main(void)
 	//I end successfully
 	exit(EXIT_SUCCESS);
 }
+
+*/
