@@ -9,6 +9,8 @@
   end the program.
 */
 
+/*
+
 #include <utilsF.h>
 #include <time.h>
 
@@ -116,3 +118,4 @@ int main(void)
 	//I end successfully
 	exit(EXIT_SUCCESS);
 }
+*/
