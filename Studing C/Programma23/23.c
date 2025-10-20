@@ -81,7 +81,7 @@ int main(void)
 			}
 		}
 		//Waits a second
-//		sleep(1);
+		sleep(1);
 	}
 	//I kill the son with SIGKILL
 	kill(pid, SIGKILL);
