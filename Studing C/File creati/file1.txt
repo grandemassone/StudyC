@@ -1,1 +1,0 @@
-Hi this is a text file, I need it to test the 32.c program.
