@@ -5,6 +5,8 @@
 •Quando la somma supera 1500 termina il figlio.
 */
 
+/*
+
 #include <utilsF.h>
 #include <time.h>
 
@@ -97,3 +99,5 @@ int main(void)
 	//I end successfully
 	exit(EXIT_SUCCESS);
 }
+
+*/
