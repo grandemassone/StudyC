@@ -1,8 +1,8 @@
 /*
-•Il padre crea un figlio.
-•Il figlio genera file numX.bin (X va da 0 a X in maniera crescente) con numeri casuali da 1–100 ogni secondo.
-•Il padre, ogni 2 s, legge la directory e calcola la somma di tutti i .bin cancellandoli mano a mano.
-•Quando la somma supera 1500 termina il figlio.
+ •The father creates a son.
+ •The child generates numX.bin files (X goes from 0 to X increasingly) with random numbers from 1–100 every second.
+ •The father, every 2 sec, reads the directory and calculates the sum of all the .bins, gradually deleting them.
+ •When the sum exceeds 1500 the child ends.
 */
 
 /*
