@@ -5,6 +5,8 @@
 •When the sum exceeds 5000, it terminates all children, prints which file wrote the largest number, and deletes the.bins.
 */
 
+/*
+
 #include <utilsF.h>
 #include <time.h>
 
@@ -122,3 +124,5 @@ int main(int argc, char** argv)
 	//I end successfully
 	exit(EXIT_SUCCESS);
 }
+
+*/
