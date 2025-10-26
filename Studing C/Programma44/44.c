@@ -14,7 +14,8 @@
       Deletes all generated binaries (unlink()).
 */
 
-///<ourhdr.h>
+/*
+
 #include <utilsF.h>
 #include <time.h>
 
@@ -162,3 +163,5 @@ int main(void)
     //I end successfully
     exit(EXIT_SUCCESS);
 }
+
+*/
