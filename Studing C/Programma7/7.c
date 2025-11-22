@@ -1,14 +1,14 @@
 /*
- 1.	Il processo padre crea un figlio con fork().
- 2.	Viene creata una pipe tra padre e figlio.
- 3.	Il figlio apre un file chiamato test1.txt in lettura usando open().
- 4.	Il figlio legge il contenuto del file (read()) e lo memorizza in un buffer.
- 5.	Il figlio installa un handler per SIGUSR1. Quando riceve il segnale:
+1.	Il processo padre crea un figlio con fork().
+2.	Viene creata una pipe tra padre e figlio.
+3.	Il figlio apre un file chiamato test1.txt in lettura usando open().
+4.	Il figlio legge il contenuto del file (read()) e lo memorizza in un buffer.
+5.	Il figlio installa un handler per SIGUSR1. Quando riceve il segnale:
 		•scrive il contenuto del buffer sulla pipe usando write().
 		•termina il programma (exit()).
- 6.	Il padre attende 2 secondi (sleep()), poi invia SIGUSR1 al figlio (kill()).
- 7.	Il padre legge dalla pipe (read()) il contenuto inviato dal figlio e lo stampa a video.
- 8.	Entrambi chiudono correttamente file e pipe (close()).
+6.	Il padre attende 2 secondi (sleep()), poi invia SIGUSR1 al figlio (kill()).
+7.	Il padre legge dalla pipe (read()) il contenuto inviato dal figlio e lo stampa a video.
+8.	Entrambi chiudono correttamente file e pipe (close()).
 */
 
 /*
